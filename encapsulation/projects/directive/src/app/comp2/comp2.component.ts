@@ -7,10 +7,10 @@ import { Component, ViewEncapsulation } from '@angular/core';
   encapsulation: ViewEncapsulation.ShadowDom
 })
 export class Comp2Component {
-  constructor(){
-    console.log('Hello');
+  // constructor(){
+  //   console.log('Hello');
     
-  }
+  // }
   display: boolean = false;
 
   displaybutton() {

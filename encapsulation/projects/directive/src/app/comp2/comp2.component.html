@@ -4,12 +4,15 @@
         existing behavior. The purpose of Directives in Angular is to maneuver the DOM, be it by adding new elements to
         DOM or removing elements and even changing the appearance of the DOM elements.7 Aug 2023</p>
     <!-- ngclass is attribute directive -->
-    <button class=" font-style" (click)="displaybutton()">More About Directives</button>
+    <button (click)="displaybutton()">More About Directives</button>
 </div>
+ <!-- ngStyle and Ngclass are attribute directives -->
+ <!-- ngIf and ngFor ar3e structural directives -->
 <div *ngIf="display"  [ngStyle]="{'backgroundColor': 'grey'}">
     We can deep dive into directives, as there are three types of directives:
     <p *ngFor="let item of ['Attribute','Structural','Custom']">
         {{item}}
     </p>
 </div>
+<!-- class=" font-style" -->
 

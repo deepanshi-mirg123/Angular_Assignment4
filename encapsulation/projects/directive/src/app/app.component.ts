@@ -10,8 +10,10 @@ import {
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
-  encapsulation: ViewEncapsulation.None
+  // encapsulation: ViewEncapsulation.None
 })
+
+//was trying to add None, but was unable to add shadowdom and none simulatneously.
 export class AppComponent implements OnInit, AfterContentChecked, AfterContentInit, AfterViewChecked, AfterViewInit, DoCheck, OnChanges, OnDestroy {
   title = 'directive';
 Angular: string | undefined;
